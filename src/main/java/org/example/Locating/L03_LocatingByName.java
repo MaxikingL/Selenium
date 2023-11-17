@@ -1,4 +1,4 @@
-package Section04;
+package org.example.Locating;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -7,9 +7,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class L03_LocatingByName {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\sbrun\\OneDrive - Learn Automation\\Desktop\\Resources\\driver_v1\\chromedriver.exe");
+
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\malema\\workSpace\\Selenium\\Selenium\\driver\\chromedriver.exe");
 		
 		WebDriver driver = new ChromeDriver();
 		
