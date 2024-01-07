@@ -1,4 +1,4 @@
-package Section12;
+package org.example.Parametrisation;
 
 import java.io.IOException;
 import org.openqa.selenium.By;
@@ -17,7 +17,7 @@ public class L04_Login extends L04_BasePage {
 		driver.findElement(By.cssSelector("input[name='password']")).sendKeys("test123");
 		driver.findElement(By.cssSelector("button#submit-login")).click();
 
-		takeSnapShot(driver);
+//		takeSnapShot(driver);
 
 		System.out.println("user has logged in");
 		Thread.sleep(2000);

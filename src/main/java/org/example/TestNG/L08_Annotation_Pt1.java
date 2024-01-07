@@ -1,4 +1,4 @@
-package Section11;
+package org.example.TestNG;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -12,7 +12,7 @@ public class L08_Annotation_Pt1 {
 
 	@BeforeSuite
 	public void setup() throws InterruptedException {
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\sbrun\\OneDrive - Learn Automation\\Desktop\\Resources\\driver_v1\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\malema\\workSpace\\Selenium\\Selenium\\driver\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();	
 		Thread.sleep(2000);

@@ -1,15 +1,15 @@
-package Section09;
+package org.example.AdvancedSubject;
+
+//import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-
-import org.apache.commons.io.FileUtils;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 
 public class L04_Screenshot {
 
@@ -17,7 +17,7 @@ public class L04_Screenshot {
 		// TODO Auto-generated method stub
 
 		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\sbrun\\OneDrive - Learn Automation\\Desktop\\Resources\\driver_v1\\chromedriver.exe");
+				"C:\\Users\\malema\\workSpace\\Selenium\\Selenium\\driver\\chromedriver.exe");
 
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.automationtesting.co.uk/");
@@ -33,7 +33,7 @@ public class L04_Screenshot {
 		File destFile = new File("C:\\Users\\sbrun\\OneDrive - Learn Automation\\Desktop\\Resources\\screenshots\\"
 				+ timestamp() + ".png");
 
-		FileUtils.copyFile(srcFile, destFile);
+//		FileUtils.copyFile(srcFile, destFile);
 
 	}
 

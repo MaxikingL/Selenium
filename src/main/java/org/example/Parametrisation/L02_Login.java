@@ -1,4 +1,4 @@
-package Section12;
+package org.example.Parametrisation;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -17,7 +17,7 @@ public class L02_Login {
 	@BeforeSuite
 	public void setup() throws InterruptedException, IOException {
 		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\sbrun\\OneDrive - Learn Automation\\Desktop\\Resources\\driver_v1\\chromedriver.exe");
+				"C:\\Users\\malema\\workSpace\\Selenium\\Selenium\\driver\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -25,7 +25,7 @@ public class L02_Login {
 
 		Properties prop = new Properties();
 		FileInputStream data = new FileInputStream(
-				"C:\\Users\\sbrun\\OneDrive - Learn Automation\\Desktop\\Resources\\workspace\\Intro\\src\\Section12\\L02_config.properties");
+				"C:\\Users\\malema\\workSpace\\Selenium\\Selenium\\src\\main\\java\\org\\example\\Parametrisation\\L02_config.properties");
 		prop.load(data);
 
 		driver.get(prop.getProperty("url"));

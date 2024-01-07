@@ -1,4 +1,4 @@
-package Section07;
+package org.example.java;
 
 public class L21a_ThreadExtend extends Thread {
 

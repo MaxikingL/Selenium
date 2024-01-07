@@ -1,4 +1,4 @@
-package Section12;
+package org.example.Parametrisation;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -26,16 +26,16 @@ public class L03_Login {
 
 		if (prop.getProperty("browser").equals("chrome")) {
 			System.setProperty("webdriver.chrome.driver",
-					"C:\\Users\\sbrun\\OneDrive - Learn Automation\\Desktop\\Resources\\driver_v1\\chromedriver.exe");
+					"C:\\Users\\malema\\workSpace\\Selenium\\Selenium\\driver\\chromedriver.exe");
 			driver = new ChromeDriver();
-		} else if (prop.getProperty("browser").equals("firefox")) {
-			System.setProperty("webdriver.gecko.driver",
-					"C:\\Users\\sbrun\\OneDrive - Learn Automation\\Desktop\\Resources\\driver_v1\\geckodriver.exe");
-			driver = new FirefoxDriver();
-		} else {
-			System.setProperty("webdriver.edge.driver",
-					"C:\\Users\\sbrun\\OneDrive - Learn Automation\\Desktop\\Resources\\driver_v1\\msedgedriver.exe");
-			driver = new EdgeDriver();
+//		} else if (prop.getProperty("browser").equals("firefox")) {
+//			System.setProperty("webdriver.gecko.driver",
+//					"C:\\Users\\sbrun\\OneDrive - Learn Automation\\Desktop\\Resources\\driver_v1\\geckodriver.exe");
+//			driver = new FirefoxDriver();
+//		} else {
+//			System.setProperty("webdriver.edge.driver",
+//					"C:\\Users\\sbrun\\OneDrive - Learn Automation\\Desktop\\Resources\\driver_v1\\msedgedriver.exe");
+//			driver = new EdgeDriver();
 		}
 
 		driver.manage().window().maximize();

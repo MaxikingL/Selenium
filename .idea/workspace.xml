@@ -5,13 +5,81 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed85b4ff-a53d-4d1e-86c0-319e956deb16" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/basicTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/AdvancedSubject/L01_ChromeOptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/AdvancedSubject/L02_DesiredCapabilities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/AdvancedSubject/L03_Cookies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/AdvancedSubject/L04_Screenshot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Maven/CMD+Commands.txt.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Maven/CMD+MVN+Command.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Maven/L06_Pom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Maven/L07_Surefire.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Maven/L08_Profile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Maven/pom (1).xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Maven/pom (2).xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Maven/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Maven/testng (7).xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Maven/testng2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MoreAdvanceeElementInteraction/008_007a_Code.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MoreAdvanceeElementInteraction/L01_TravelWebsitePt1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MoreAdvanceeElementInteraction/L04_TravelWebsitePt2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MoreAdvanceeElementInteraction/L06_Iframes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MoreAdvanceeElementInteraction/L07_BrowserTabs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MoreAdvanceeElementInteraction/L10_JavaScriptExecutor_Pt1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MoreAdvanceeElementInteraction/L11_JavaScriptExecutor_Pt2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/POMDesignPattern/DirectoryStructure (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/POMDesignPattern/DirectoryStructure.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/POMDesignPattern/StoreLoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/POMDesignPattern/TestStoreLoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Parametrisation/L02_Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Parametrisation/L02_config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Parametrisation/L03_Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Parametrisation/L03_config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Parametrisation/L04_BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Parametrisation/L04_Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Parametrisation/L04_Login2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Parametrisation/L04_config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Parametrisation/testng (6).xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TestNG/L02_TestngInstall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TestNG/L03a_TestngXml.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TestNG/L03b_TestngXml2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TestNG/L04a_TestngXml.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TestNG/L04b_TestngXml2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TestNG/L06_Homepage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TestNG/L08_Annotation_Pt1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TestNG/L09_Annotation_Pt2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TestNG/L10a_TestngXml.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TestNG/L10b_TestngXml.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TestNG/L11_Parameters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TestNG/L12_DataProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TestNG/L13_DependsOnMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TestNG/L14_Enabled.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TestNG/L15_TestNGAssert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TestNG/L17_ITestListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TestNG/L17_TestClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java/BlueJ_House_Code.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java/L03_Syntax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java/L04_Comments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java/L05_Variables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java/L06_DataTypes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java/L07_JavaOperators.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java/L08_Math.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java/L09_IfStatements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java/L10_ForLoops.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java/L11_ForEachLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java/L12_WhileLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java/L13_Parameters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java/L14_Inheritence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java/L15_Polymorphism.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java/L16_House.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java/L17_Arrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java/L18_ArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java/L19_List.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java/L20_Iterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java/L21a_ThreadExtend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java/L21b_ThreadImplements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java/L21c_ThreadOrdering.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/driver/chromedriver.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,9 +96,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2XvxpMQGohnKSyIdO2zLQxaxpj8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -43,50 +111,107 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/malema/workSpace/Selenium/Selenium/driver"
+    "last_opened_file_path": "C:/Users/malema/workSpace/Selenium/Selenium",
+    "project.structure.last.edited": "Global Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\malema\workSpace\Selenium\Selenium\driver" />
+      <recent name="C:\Users\malema\workSpace\Selenium\Selenium\src\main\java\org\example\MoreAdvanceeElementInteraction" />
+      <recent name="C:\Users\malema\workSpace\Selenium\Selenium\src\main\java\org\example\POMDesignPattern" />
+      <recent name="C:\Users\malema\workSpace\Selenium\Selenium\src\main\java\org\example\Maven" />
+      <recent name="C:\Users\malema\workSpace\Selenium\Selenium\src\main\java\org\example\Parametrisation" />
+      <recent name="C:\Users\malema\workSpace\Selenium\Selenium\src\main\java\org\example\TestNG" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\malema\workSpace\Selenium\Selenium\src\main\java\org\example\TestNG" />
+      <recent name="C:\Users\malema\workSpace\Selenium\Selenium\src\main\java\org\example\interactingWithElements" />
+      <recent name="C:\Users\malema\workSpace\Selenium\Selenium\src\main\java\org\example" />
       <recent name="C:\Users\malema\workSpace\Selenium\Selenium\driver" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.App">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.App" />
+  <component name="RunManager" selected="TestNG.L02_Login">
+    <configuration name="C:/Users/malema/workSpace/Selenium/Selenium/src/main/java/org/example/TestNG/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/java/org/example/TestNG/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="basicTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/malema/workSpace/Selenium/Selenium/src/main/java/org/example/TestNG/testng.xml.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/java/org/example/TestNG/testng.xml.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="L02_Login" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.Parametrisation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.basicTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="org.example.Parametrisation" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Parametrisation.L02_Login" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="L03b_TestngXml2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.TestNG.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.TestNG" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TestNG.L03b_TestngXml2" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="L09_Annotation_Pt2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.TestNG.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.TestNG" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TestNG.L09_Annotation_Pt2" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App" />
-        <item itemvalue="JUnit.basicTest" />
+        <item itemvalue="TestNG.L02_Login" />
+        <item itemvalue="TestNG.L09_Annotation_Pt2" />
+        <item itemvalue="TestNG.C:/Users/malema/workSpace/Selenium/Selenium/src/main/java/org/example/TestNG/testng.xml" />
+        <item itemvalue="TestNG.C:/Users/malema/workSpace/Selenium/Selenium/src/main/java/org/example/TestNG/testng.xml.xml" />
+        <item itemvalue="TestNG.L03b_TestngXml2" />
       </list>
     </recent_temporary>
   </component>

@@ -1,4 +1,4 @@
-package Section07;
+package org.example.java;
 
 public class L21b_ThreadImplements implements Runnable {
 

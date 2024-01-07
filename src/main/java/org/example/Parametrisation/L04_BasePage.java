@@ -1,4 +1,4 @@
-package Section12;
+package org.example.Parametrisation;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -8,7 +8,7 @@ import java.util.Date;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
-import org.apache.commons.io.FileUtils;
+//import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -56,15 +56,15 @@ public class L04_BasePage {
 		return url;
 	}
 
-	public void takeSnapShot(WebDriver webdriver) throws IOException {
-		File srcFile = ((TakesScreenshot) webdriver).getScreenshotAs(OutputType.FILE);
-
-		File destFile = new File("C:\\Users\\sbrun\\OneDrive - Learn Automation\\Desktop\\Resources\\screenshots\\"
-				+ timestamp() + ".png");
-
-		FileUtils.copyFile(srcFile, destFile);
-
-	}
+//	public void takeSnapShot(WebDriver webdriver) throws IOException {
+//		File srcFile = ((TakesScreenshot) webdriver).getScreenshotAs(OutputType.FILE);
+//
+//		File destFile = new File("C:\\Users\\sbrun\\OneDrive - Learn Automation\\Desktop\\Resources\\screenshots\\"
+//				+ timestamp() + ".png");
+//
+//		FileUtils.copyFile(srcFile, destFile);
+//
+//	}
 
 	public String timestamp() {
 		return new SimpleDateFormat("yyyy-MM-dd HH-mm-ss").format(new Date());

@@ -1,4 +1,4 @@
-package Section12;
+package org.example.Parametrisation;
 
 import java.io.IOException;
 import org.openqa.selenium.By;

@@ -1,4 +1,4 @@
-package uk.co.automationtesting.mavenproject;
+package org.example.Maven;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;

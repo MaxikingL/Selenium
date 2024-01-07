@@ -1,4 +1,4 @@
-package PageObjects;
+package org.example.POMDesignPattern;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
