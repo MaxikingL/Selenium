@@ -1,0 +1,7 @@
+1) Use this command when you have cd'd into your workspace directory. Make sure to CHANGE the groupid with a value specific to you (even make up a company name like, com.madeupcompany):
+
+mvn archetype:generate -DgroupId=<<CHANGE>> -DartifactId=liveproject1 -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+
+2) Then CD into your new project folder
+
+3) Run command mvn eclipse:eclipse to generate the two files that are needed to import the project into Eclipse

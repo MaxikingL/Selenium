@@ -1,0 +1,20 @@
+# Run all the test classes
+mvn test
+
+# Run a single test class
+mvn -Dtest=DemoTest1 test
+
+# Run multiple test classes
+mvn -Dtest= L08_Profile,L07_Surefire test
+
+# Run a single test method
+$ mvn -Dtest=L08_Profile#testng test
+
+# Run all test methods that match pattern 't*' from L08_Profile class
+$ mvn -Dtest=L08_Profile#t* test
+
+# Run all test methods match pattern 't*' and 'e*'from L08_Profile class
+$ mvn -Dtest=L08_Profile#t*+e* test
+
+
+
